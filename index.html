@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhammed Saeed, Web Developer based in Alathur.">
+    <title>Muhammed Saeed | Web Developer</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="blob-bg blob-3"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Saeed<span>.</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section animate-on-scroll">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Muhammed <span>Saeed</span></h1>
+                <h2 class="title">Web Developer & Designer</h2>
+                <p class="summary">I build beautiful, responsive, and dynamic web applications. Passionate about creating premium user experiences.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/msva786" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammed-saeed-24389122a/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/saeed.alathur" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1HtTuVPiEL/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glass-card image-placeholder">
+                    <img src="profile.jpg" alt="Muhammed Saeed" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section animate-on-scroll">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-container glass-card">
+                <div class="about-text">
+                    <p>I am a passionate Web Developer dedicated to crafting high-quality web experiences. I specialize in turning complex problems into elegant, intuitive interfaces.</p>
+                    <p>Currently, I am working as the <strong>Head Teacher</strong> at <strong>Hidayathul Islam Madrasa</strong> in Krishnapuram, Thrissur, Kerala. Alongside my educational responsibilities, I continuously learn and adapt to modern web technologies like HTML, CSS/SCSS, and JavaScript to build scalable solutions.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Alathur, Palakkad</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span>Head Teacher & Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section animate-on-scroll">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                    <h3>CSS3 / SCSS</h3>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fa-solid fa-mobile-screen-button skill-icon" style="color: #00d8ff;"></i>
+                    <h3>App Development</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section animate-on-scroll">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+
+                <!-- Project New -->
+                <article class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Smart Expense Tracker</h3>
+                        <p>A smart mobile application for tracking and managing your daily expenses.</p>
+                        <div class="project-tags">
+                            <span class="tag">Mobile App</span>
+                            <span class="tag">Tracker</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Project 1 -->
+                <article class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Competition Manager</h3>
+                        <p>A web application to manage Art Fest like programs efficiently.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">App</span>
+                        </div>
+                        <a href="https://github.com/msva786/competition-manager" target="_blank" class="project-link">View Source <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Padanthara Markaz Website</h3>
+                        <p>An institutional website built with advanced styling using SCSS.</p>
+                        <div class="project-tags">
+                            <span class="tag">SCSS</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <a href="https://github.com/msva786/Padanthara-markaz-website" target="_blank" class="project-link">View Source <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Darussalam Gundalpet</h3>
+                        <p>A JavaScript-driven web project tailored for Darussalam Gundalpet.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Frontend</span>
+                        </div>
+                        <a href="https://github.com/msva786/darussalam-gundalpet" target="_blank" class="project-link">View Source <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>New Markaz Website</h3>
+                        <p>The updated iteration of the Markaz website focusing on clean structure.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="https://github.com/msva786/new-markaz-website" target="_blank" class="project-link">View Source <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section animate-on-scroll">
+            <h2 class="section-title">Get in <span>Touch</span></h2>
+            <div class="contact-container glass-card">
+                <p class="contact-text">I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="social-links-large">
+                    <a href="https://wa.me/919961783638" target="_blank" class="social-btn glass-btn">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://github.com/msva786" target="_blank" class="social-btn glass-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammed-saeed-24389122a/" target="_blank" class="social-btn glass-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://instagram.com/saeed.alathur" target="_blank" class="social-btn glass-btn">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://www.facebook.com/share/1HtTuVPiEL/" target="_blank" class="social-btn glass-btn">
+                        <i class="fa-brands fa-facebook"></i> Facebook
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Muhammed Saeed. Built with passion.</p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
